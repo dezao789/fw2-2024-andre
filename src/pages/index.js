@@ -5,7 +5,7 @@ import Menu from "./modulos/navbar";
 export default function Index() {
   return <div>
     <Menu />
-    <Container>
+    <Container className="text-info border-succses border-5 rounded-pill" >
       Bem Vindos a disciplina
     </Container>
     <Footer />

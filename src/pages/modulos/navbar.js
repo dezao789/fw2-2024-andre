@@ -3,7 +3,7 @@ import styles from "@/styles/Navbar.module.css"
 export default function Menu() {
   return (
     <Container>
-      <Navbar expand="sm" className={` bg-dark ${styles.navGradiente} navbar-dark px-3 m-0`}>
+      <Navbar expand="sm" className={` bg-dark ${styles.navGradiente} navbar-dark px-3 m-0 border border-dark border-5 rounded-top rounded-5`}>
         <Navbar.Brand href="/">6A</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
