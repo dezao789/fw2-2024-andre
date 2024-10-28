@@ -12,7 +12,7 @@ const [pao, setpao] = useState("")
     return <>
         <Menu />
         <Container>
-            Promessa {pao==="" ? "<carregando>" : pao}
+            Promessa {pao==="" ? <img src="./loading.gif" width={60} height={30}/> : pao}
         </Container>
         <Footer />
     </>
