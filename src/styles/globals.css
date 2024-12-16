@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(252, 247, 254, 1) 54%, rgba(31, 120, 255) 84%);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 16%, rgba(0,212,255,1) 100%);
     min-height: 100vh;
     font-size:  larger;
 }
